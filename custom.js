@@ -4,12 +4,14 @@ let cards = document.querySelectorAll('.cardItem img');
 let buttonRandom = document.querySelectorAll('button')[0];
 let buttonReset = document.querySelectorAll('button')[1];
 
+// window resize
 const RESIZE = () => {
   windowWidth = window.innerWidth;
   windowHeight = window.innerHeight;
   CARD_RESET()
 }
 
+// random function
 const CARD_RANDOM = () => {
   cards.forEach(function (item, i) {
     gsap.to(item, 1, {
@@ -22,6 +24,7 @@ const CARD_RANDOM = () => {
   })
 }
 
+// reset function
 const CARD_RESET = () => {
   cards.forEach(function (item, i) {
     console.log(i);
@@ -31,7 +34,7 @@ const CARD_RESET = () => {
       transform: 'translate(-50%, -50%',
       ease: Power3.easeInOut,
       rotation: 0,
-      delay: i * 0.12,
+      delay: i * 0.1,
     })
   })
 };

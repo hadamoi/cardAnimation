@@ -27,7 +27,6 @@ const CARD_RANDOM = () => {
 // reset function
 const CARD_RESET = () => {
   cards.forEach(function (item, i) {
-    console.log(i);
     gsap.to(item, 0.8, {
       left: windowWidth / 2 - (i * 90 - 180),
       top: windowHeight / 2 + (i * 10),

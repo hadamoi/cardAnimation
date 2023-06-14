@@ -30,7 +30,7 @@ const CARD_RESET = () => {
     gsap.to(item, 0.8, {
       left: windowWidth / 2 - (i * 90 - 180),
       top: windowHeight / 2 + (i * 10),
-      transform: 'translate(-50%, -50%)',
+      transform: 'translate(-50%, -70%)',
       ease: Power3.easeInOut,
       rotation: 0,
       delay: i * 0.1,

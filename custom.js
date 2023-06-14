@@ -1,5 +1,4 @@
 let windowHeight, windowWidth
-
 let cards = document.querySelectorAll('.cardItem img');
 let buttonRandom = document.querySelectorAll('button')[0];
 let buttonReset = document.querySelectorAll('button')[1];

@@ -50,4 +50,3 @@ buttonReset.addEventListener('click', function (event) {
 });
 
 RESIZE();
-CARD_RESET()
